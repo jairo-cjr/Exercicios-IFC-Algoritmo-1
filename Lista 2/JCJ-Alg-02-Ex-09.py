@@ -4,4 +4,4 @@ date = int(input("Digite uma data no formato DDMMAAAA: "))
 day = date // 1000000
 month = (date % 1000000) // 10000
 year = date % 10000
-print(f"A data {date} no formato AAAAMMDD é: {year}{month}{day}")
+print(f"A data {date:08} no formato AAAAMMDD é: {year:04}{month:02}{day:02}")
